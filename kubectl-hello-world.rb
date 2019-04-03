@@ -1,9 +1,9 @@
 class KubectlHelloWorld < Formula
   desc "A kubectl plugin just saying Hello World!"
   homepage "https://github.com/int128/kubectl-hello-world"
-  url "https://github.com/int128/kubectl-hello-world/releases/download/v1.0.3/kubectl-hello-world_darwin_amd64.zip"
-  version "v1.0.3"
-  sha256 "359a1d5a3f1cff9d3678bbcc5866b10072d16aa77214e45f637e1c64bbdc263f"
+  url "https://github.com/int128/kubectl-hello-world/releases/download/v1.0.4/kubectl-hello-world_darwin_amd64.zip"
+  version "v1.0.4"
+  sha256 "463823aaad2712b4dc80ee86ae602d1c1af8b9be817eea9fa8eedf0aa72cb45e"
 
   def install
     bin.install "kubectl-hello_world"
